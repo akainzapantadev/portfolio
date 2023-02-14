@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap%27");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "proxima-nova", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("./assets/images/test-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+:root {
+  --main-color: #ff5349;
+  --sub-color: #218aad;
+}
+
+.main-text-color {
+  color: #ff5349;
+}
+
+.sub-text-color {
+  color: #ffcba4;
+}
+
+.test-border {
+  border: 2px yellow solid;
+}
+
+.background {
+  background-image: url("./assets/images/test-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center top;
+  background-attachment: scroll; */
+}
+
+.container-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+}
+
+.contact-bg {
+  opacity: 0.5;
+}
+
+.container-bg:hover {
+  transition: 1s;
+  opacity: 1;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.portfolio-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-border {
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+}
+
+#splash_image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.half-color-text-r {
+  font-weight: bold;
+  background: linear-gradient(to left, #ff5349 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+  opacity: 0.9;
+}
+
+.overlay:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.bg-card {
+  background-color: #474c52 !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-title {
+  overflow-y: hidden;
+}
+.card-subtitle {
+  overflow-y: hidden;
+}
+
+.text-main-color {
+  color: var(--main-color);
+}
