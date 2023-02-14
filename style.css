@@ -47,8 +47,16 @@ body {
   opacity: 0.5;
 }
 
+.bg-title {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  margin: 0;
+  line-height: 35rem;
+}
+
 .contact-bg {
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container-bg:hover {
@@ -78,6 +86,14 @@ body {
 
 .half-color-text-r {
   font-weight: bold;
+  background: linear-gradient(to right, #ff5349 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.half-color-text-l {
+  font-weight: bold;
   background: linear-gradient(to left, #ff5349 50%, #ffffff 50%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -85,7 +101,7 @@ body {
 }
 
 .overlay {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .overlay:hover {
