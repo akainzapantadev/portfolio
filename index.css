@@ -160,6 +160,7 @@
   border-color: #ff5349;
   color: #ff5349;
   margin-top: 1px;
+  pointer-events: none;
 }
 
 .card-img {
@@ -205,6 +206,22 @@
 .progress .progress-bar {
   position: relative;
   background-color: #ff4949;
+}
+
+#progress-bar-html {
+  width: 90%;
+}
+
+#progress-bar-css {
+  width: 80%;
+}
+
+#progress-bar-js {
+  width: 70%;
+}
+
+#progress-bar-bs {
+  width: 70%;
 }
 
 .progress .progress-value {
