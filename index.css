@@ -84,6 +84,10 @@
   color: #ffffff;
 }
 
+#landing-half-img {
+  max-height: 210px;
+}
+
 #email {
   color: #8a8787;
 }
@@ -154,6 +158,10 @@
   color: white;
   background: rgba(255, 83, 73, 0.1) !important;
   border-radius: 16px;
+}
+
+.card:hover {
+  background: rgba(255, 83, 73, 0.3) !important;
 }
 
 .card-btn {
